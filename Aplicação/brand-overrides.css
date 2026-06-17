@@ -1,0 +1,61 @@
+:root {
+  --playarena-lime: #80fb5a;
+  --playarena-lime-soft: #a4ff82;
+  --playarena-lime-deep: #58d93f;
+  --playarena-ink: #020402;
+  --color-green-400: var(--playarena-lime);
+  --color-green-500: var(--playarena-lime-deep);
+  --color-teal-400: var(--playarena-lime);
+  --color-teal-500: var(--playarena-lime-deep);
+  --color-cyan-500: var(--playarena-lime);
+  --primary: var(--playarena-lime);
+  --primary-foreground: var(--playarena-ink);
+  --ring: var(--playarena-lime);
+  --chart-1: var(--playarena-lime);
+  --chart-2: var(--playarena-lime-soft);
+  --sidebar-primary: var(--playarena-lime);
+  --sidebar-primary-foreground: var(--playarena-ink);
+  --brand: var(--playarena-lime);
+  --brand-foreground: var(--playarena-ink);
+  --brand-muted: rgb(128 251 90 / 16%);
+}
+
+.dark {
+  --primary: var(--playarena-lime);
+  --primary-foreground: var(--playarena-ink);
+  --ring: var(--playarena-lime);
+  --chart-1: var(--playarena-lime);
+  --chart-2: var(--playarena-lime-soft);
+  --sidebar-primary: var(--playarena-lime);
+  --sidebar-primary-foreground: var(--playarena-ink);
+  --brand: var(--playarena-lime);
+  --brand-foreground: var(--playarena-ink);
+  --brand-muted: rgb(128 251 90 / 16%);
+}
+
+.text-gradient-brand {
+  background: linear-gradient(135deg, #b8ff9f, #80fb5a 42%, #58d93f 72%, #2dbd2d);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.shadow-primary\/25,
+.shadow-primary\/30 {
+  --tw-shadow-color: rgb(128 251 90 / 30%);
+}
+
+img[alt="Dashboard do proprietário PlayArena"] {
+  width: calc(100% - 28px) !important;
+  margin: 14px auto 0;
+  border-radius: 8px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero-visual-column {
+  overflow: visible;
+}
+
+
+
+
